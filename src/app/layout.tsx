@@ -21,6 +21,7 @@ const description =
   "Otorrinolaringologista em Uberlândia – MG. Ouvido, nariz e garganta para adultos e crianças, rinoplastia e cirurgia plástica da face. Nota 4,9 no Google. Agende pelo WhatsApp ou Doctoralia.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://draugusto.vercel.app"),
   title,
   description,
   keywords: [
@@ -33,6 +34,7 @@ export const metadata: Metadata = {
     "otorrino infantil Uberlândia",
   ],
   alternates: { canonical: "/" },
+  // A imagem da prévia vem de src/app/opengraph-image.tsx
   openGraph: {
     title: "Dr. Augusto César Borges, otorrino",
     description: "Ouvido, nariz e garganta em Uberlândia – MG. Agende pelo WhatsApp ou Doctoralia.",
